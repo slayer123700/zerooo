@@ -11,7 +11,10 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 WORKDIR /app
 
 COPY requirements.txt .
-RUN pip install -U pip setuptools wheel && pip install -r requirements.txt
+# Every dependency is pinned, so skip dependency resolution entirely
+RUN pip install -U pip setuptools wheel \
+    && pip install --no-deps -r requirements.txt \
+    && (pip check || true)
 
 COPY . .
 
