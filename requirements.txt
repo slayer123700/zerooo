@@ -11,7 +11,7 @@ ntgcalls==2.2.1b3
 # --- YouTube / Spotify / media ---
 yt-dlp==2026.3.13
 py-yt-search==0.5.7
-youtube-search==2.1.2
+youtube-search==2.2.0
 youtube-search-python==1.6.6
 spotipy==2.26.0
 static-ffmpeg==3.0
