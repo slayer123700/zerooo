@@ -51,10 +51,10 @@ API_ID = getenv("API_ID", "25742938")
 API_HASH = getenv("API_HASH", "b35b715fe8dc0a58e8048988286fc5b6")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("8806982181:AAEZzP1on93KFtQbsGZ8CMkYoLFPR0Wrtg8")
+BOT_TOKEN = getenv("8806982181:AAG8p5mFVAL8uyEzPPE1kKUchX8Q6_WvKNQ")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("mongodb+srv://lollolopp0900_db_user:xbaj05RPixvCXNMS@zero.rqsozug.mongodb.net/?appName=Zero")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://lollolopp0900_db_user:xbaj05RPixvCXNMS@zero.rqsozug.mongodb.net/?appName=Zero")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600))
 CODE_CREW_CHANNEL = "https://t.me/thecodecrew"
