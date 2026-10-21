@@ -73,8 +73,8 @@ except ImportError:
 
 
 # Default API URL fallback to live API
-API_URL = os.getenv("API_URL", "https://api.riteshyt.in").rstrip("/")
-API_KEY = os.getenv("API_KEY", "riteshfree34f595dcba9427d059ae5804")
+API_URL = os.getenv("API_URL", "https://tgmusic.fallenapi.fun").rstrip("/")
+API_KEY = os.getenv("API_KEY", "ca20a1_CpZ6wHK-pM2qAtdYOJHO5eSbHOg-3ftW")
 
 LOGGER = logging.getLogger(__name__)
 
